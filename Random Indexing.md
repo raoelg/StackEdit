@@ -108,7 +108,7 @@ A number of different approaches to finding vector embeddings exist. Well known 
 - GloVe
 - word2vec
 - Fasttext
-- Erni
+- Elmo
 - BERT
 
 With the exception of GloVe, these are all learned by training neural networks to predict the presence of (combinations of) the target token from it's context. GloVe vectors are obtained by least squares methods and essentially boils down to classical multidimensional scaling: A set of location vectors in n-dimensional space are found that reproduces the observed distances between cases as well as possible.
@@ -121,5 +121,6 @@ B2ZWN0b3JzXG5hdXRob3I6IFJhb3VsIEdyYXNtYW5cbmRhdGU6
 ICdTdW4gT2N0IDIwIDIwMTkgMTM6MjQ6MDAgR01UKzAyMDAgKE
 NlbnRyYWwgRXVyb3BlYW4gU3VtbWVyIFRpbWUpJ1xudGFnczog
 J3JhbmRvbSBpbmRleGluZywgd29yZCB2ZWN0b3JzLCBlbWJlZG
-RpbmdzJ1xuIiwiaGlzdG9yeSI6WzEzMjczNDEyMDZdfQ==
+RpbmdzJ1xuIiwiaGlzdG9yeSI6Wy0xMTg3NzQ4MTY5LDEzMjcz
+NDEyMDZdfQ==
 -->
